@@ -1,0 +1,132 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: mishi_wubi
+  name: "米十五笔"
+  version: "1.0"
+  author:
+    - 创始人 李明先生
+  description: |
+    米十五笔，方案由 Skating 修改 - 2023年02月25日
+  dependencies:
+    - pinyin_simp
+
+switches:
+#  - name: ascii_mode
+#    reset: 0
+#    states: [ 中文, 英文 ]
+  - name: zh_trad
+    reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
+    states: [ 简体, 繁体 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: extended_charset
+    states: [ 常用, 扩展 ]
+    reset: 1
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    reset: 1
+    states: [ 🈚︎, 🈶️ ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@mkst
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    - lua_translator@date_translator # 自定义系统变量输出
+    - lua_translator@week_translator
+    - table_translator@mkst
+  filters:
+    - simplifier@emoji_suggestion
+    - simplifier@tradition
+#    - lua_filter@single_char_first_filter # 单字优先
+#    - lua_filter@single_char_only # 纯单字
+    - uniquifier
+
+speller:
+  max_code_length: 4                    # 四码上屏
+  auto_select: false                     # 四码唯一时，自动上屏
+  delimiter: "`"
+  auto_clear: max_length                # 空码时自动清空
+
+translator:
+  dictionary: mishi_wubi             # 翻译器将调取此字典文件
+  initial_quality: 100000
+  enable_charset_filter: true           # 开启字符集过滤
+  enable_completion: true               # 是否显示编码未输入完整的词条
+
+  enable_sentence: false                # 句子输入模式
+  enable_user_dict: true               # 是否开启用户词典（用户词典记录动态字词频，用户词）
+  disable_user_dict_for_patterns:
+    - "^[a-z]{1,3}$"
+  enable_encoder: true                  # 是否开启自动造词
+  encode_commit_history: false          # 是否对已上屏词自动成词（仅 table_translator 有效）
+
+  max_phrase_length: 2                 # 自动生成词的最大长度
+  user_dict: mishi_wubi                 # 用户词典名
+  db_class: userdb                      # 用户词典类型 userdb - 二进制 / tabledb - 人类语言
+
+  preedit_format:                       # 上屏码自定义
+#    - xform/.+//
+  comment_format:                       # 提示码自定义
+#    - xform/.+//                        # 当前默认提示编码
+
+tradition:
+  #  opencc_config: s2t.json  # 简体 -> 繁体
+  opencc_config: s2hk.json  # 简体 -> 香港繁体
+  #  opencc_config: s2tw.json  # 简体 -> 台湾正体
+  #  opencc_config: s2twp.json  # 简体 -> 繁体（台湾正体标准）并转换为台湾常用词汇
+  option_name: zh_trad
+
+mkst:
+  __include: /translator
+  initial_quality: 10
+  enable_sentence: true
+  prefix: '`'
+  tips: "【精准造词】"
+  tag: mkst
+
+reverse_lookup:
+  dictionary: pinyin_simp  # 反查使用的拼音词库
+  prefix: "/"              # 反查前缀
+  tips: 【拼音反查】        # 反查时的提示信息
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: none
+  inherit_comment: false
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^/[a-z]*'?$" # 反查词条的正则
+    mkst: "^[a-z]*`[a-z`]*$"
