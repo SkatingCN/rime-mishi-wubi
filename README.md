@@ -14,14 +14,11 @@
 <br>② macOS 上的鼠须管配置文件存放目录是 ~/Library/Rime，把 Rime 文件夹中的文件（含文件夹）移到 Rime 目录中，点击状态栏上的输入法图标，下拉菜单中选择“部署 (英文是Deploy）”，或者可以直接使用快捷键 control + option + ~ <br/>
 <br>注意：Rime 目录下的 Build 目录是程序生成的，不要把配置文件放在那里面，无视它即可。<br/>
 <br>注意：需要将你下载的文件放入 /Users/你用户名/Library/Rime 这个目录下，明白了吗？<br/>
-
 ## 3. Ubuntu (ibus-rime)
-    执行下面指令安装 ibus-rime 输入法
-sudo apt-get install ibus-rime
-
-    ubuntu 的配置文件目录在
-~/.config/ibus/rime/
-
+<br>执行下面指令安装 ibus-rime 输入法<br/>
+<br>sudo apt-get install ibus-rime<br/>
+<br>ubuntu 的配置文件目录在<br/>
+<br>~/.config/ibus/rime/<br/>
 # 三、扩展词库
     默认已添加的词库有：
     - mishi_wubi                          # 米十五笔词库
@@ -29,8 +26,8 @@ sudo apt-get install ibus-rime
     - mishi_wubi_extra_district           # 扩展词库 - 行政区域（默认不启用）
     - mishi_wubi_user.dict.yaml           # 用户词库（用户常用而以上词库未收录的词，可自行添加到该词库）
 
-    可以通过修改 mishi_wubi.dict.yaml 文件头部的部分来启用、停用某一个词库。
-    比如想启用（停用）“行政区域”这个词库，直接直接删除该行前面的 # （在该行前面添加 # ），执行输入法的“重新部署”操作后即可生效。“行政区域”这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。
+<br>可以通过修改 mishi_wubi.dict.yaml 文件头部的部分来启用、停用某一个词库。<br/>
+<br>比如想启用（停用）“行政区域”这个词库，直接直接删除该行前面的 # （在该行前面添加 # ），执行输入法的“重新部署”操作后即可生效。“行政区域”这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。<br/>
 
 # 四、使用说明
 ## 1. 选项菜单
