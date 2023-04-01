@@ -135,8 +135,6 @@ translator:
 		filters:
 		#   - lua_filter@single_char_first_filter # 单字优先
 		#    - lua_filter@single_char_only # 纯单字
+# 六、致谢
 		感谢米十五笔输入法的发明人李明先生、「Rime/中州韵」输入法引擎的开发者佛振先生、以及分享的 Rime 定制方案的 KyleBing、f1ynng8、yanhuacuo！
 
-
-                                                                                    Skating
-                                                                                 2023年3月30日
