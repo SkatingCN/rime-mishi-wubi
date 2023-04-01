@@ -104,4 +104,4 @@
 <br>#   - lua_filter@single_char_first_filter # 单字优先
 <br>#    - lua_filter@single_char_only # 纯单字<br/>
 # 六、致谢
-<br>感谢米十五笔输入法的发明人李明先生、「Rime/中州韵」输入法引擎的开发者佛振先生、以及分享的 Rime 定制方案的 KyleBing、f1ynng8、yanhuacuo！<br/>
+<br>感谢米十五笔输入法的发明人[李明先生](http://www.jpwb.cc/MJWB.htm)、「Rime/中州韵」输入法引擎的开发者[佛振先生]((https://rime.im/)、以及分享的 Rime 定制方案的 [KyleBing](https://github.com/KyleBing/rime-wubi86-jidian)、[f1ynng8](https://github.com/f1ynng8/rime-wubi86-jidian)、[yanhuacuo](https://github.com/yanhuacuo/98wubi)！<br/>
