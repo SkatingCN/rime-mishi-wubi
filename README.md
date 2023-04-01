@@ -82,7 +82,7 @@
 <br>默认是开启的。<br/>
 <br>想要关闭，打开 default.custom.yaml 文件，找到下面这行，在前面添加 # 即可，如下<br/>
 <br># 回车清码
-<br>- { when: composing, accept: Return, send: Escape }<br/>
+- { when: composing, accept: Return, send: Escape }<br/>
 
 ## 3. 空码时自动清码
 <br>默认配置是不会自动清的，想要自动清码，修改文件 mishi_wubi.schema.yaml 中 speller 这一栏，将前面的 # 号删除即可，如下<br/>
