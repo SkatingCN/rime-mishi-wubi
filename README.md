@@ -75,54 +75,52 @@
 
 # 五、常见自定义功能
 ## 1. 候选个数
-    默认是7，可以自定义候选面板中的候选词的个数，编辑 default.custom.yaml 中以下这段，修改成你想要的个数即可，最多支持10个。
-menu:
-  page_size: 7      # 候选词数量，最多支持 10 个
+<br>默认是7，可以自定义候选面板中的候选词的个数，编辑 default.custom.yaml 中以下这段，修改成你想要的个数即可，最多支持10个。<br/>
+<br>menu:<br/>
+<br>  page_size: 7      # 候选词数量，最多支持 10 个<br/>
 
 ## 2. 回车清码
-    默认是开启的。
-    想要关闭，打开 default.custom.yaml 文件，找到下面这行，在前面添加 # 即可，如下
-      # 回车清码
-      - { when: composing, accept: Return, send: Escape }
+<br>默认是开启的。<br/>
+<br>想要关闭，打开 default.custom.yaml 文件，找到下面这行，在前面添加 # 即可，如下<br/>
+<br># 回车清码
+<br>- { when: composing, accept: Return, send: Escape }<br/>
 
 ## 3. 空码时自动清码
-    默认配置是不会自动清的，想要自动清码，修改文件 mishi_wubi.schema.yaml 中 speller 这一栏，将前面的 # 号删除即可，如下
-
-  auto_clear: max_length                # 空码时自动清空
+<br>默认配置是不会自动清的，想要自动清码，修改文件 mishi_wubi.schema.yaml 中 speller 这一栏，将前面的 # 号删除即可，如下<br/>
+<br>  auto_clear: max_length                # 空码时自动清空<br/>
 
 ## 4. 编码提示
-    默认是开启的， 想要关闭，打开 mishi_wubi.schema.yaml 编辑 translator -> comment_format 改成如下即可
-
-  comment_format: 
-    - xform/.+//                       去掉该行# 注释，即可关闭词条编码
+<br>默认是开启的， 想要关闭，打开 mishi_wubi.schema.yaml 编辑 translator -> comment_format 改成如下即可。<br/>
+<br>  comment_format: <br/>
+<br>    - xform/.+//                       去掉该行# 注释，即可关闭词条编码<br/>
 
 ## 5. 关于手动造词功能
-    手动往用户词库（mishi_wubi_user.dict.yaml）中添加词组，并重新部署。
-    这个操作要注意的是词组与编码之间的符号是tab，写错了这个词是不会被识别的。
+<br>    手动往用户词库（mishi_wubi_user.dict.yaml）中添加词组，并重新部署。<br/>
+<br>    这个操作要注意的是词组与编码之间的符号是tab，写错了这个词是不会被识别的。<br/>
 
 ## 6. 临时自动造词（精准造词）模式
-    正常中文输入模式下，不会进行自动造词，只有按 ` 键才会进入临时自动造词模式（保存在用户文件夹的 mishi_wubi.userdb）。
-    输入单字编码（1～4位）后使用 ` 键分隔编码，并继续输入新的单字编码，连续输完欲组词单字编码后，如上屏词不对，使用方向键（←→或↑↓）依次定位到正确候选字并按空格键确认。使用空格键将选中的词组上屏后即自动学习为新词组。造好的词上屏后不能回删，否则不记录。造好的词需再次上屏才能转正。
-    删词操作：定位到要删除的词条上面按Shift+Delete删除，此操作只对造词有效！
-    注意: 无法使用四码唯一自动上屏的功能。
+<br>正常中文输入模式下，不会进行自动造词，只有按 ` 键才会进入临时自动造词模式（保存在用户文件夹的 mishi_wubi.userdb）。<br/>
+<br> 输入单字编码（1～4位）后使用 ` 键分隔编码，并继续输入新的单字编码，连续输完欲组词单字编码后，如上屏词不对，使用方向键（←→或↑↓）依次定位到正确候选字并按空格键确认。使用空格键将选中的词组上屏后即自动学习为新词组。造好的词上屏后不能回删，否则不记录。造好的词需再次上屏才能转正。<br/>
+<br>删词操作：定位到要删除的词条上面按Shift+Delete删除，此操作只对造词有效！<br/>
+<br>注意: 无法使用四码唯一自动上屏的功能。<br/>
 
 ## 7. 开启四码唯一自动上屏
-    需要修改 mishi_wubi.schema.yaml 下面几个内容
-speller:
-  # max_code_length: 4                 # 四码上屏
-  auto_select: true                   # 自动上屏
+<br>需要修改 mishi_wubi.schema.yaml 下面几个内容<br/>
+<br>speller:<br/>
+<br>  # max_code_length: 4                 # 四码上屏<br/>
+<br>  auto_select: true                   # 自动上屏<br/>
 
-translator:
-  enable_sentence: false                # 句子输入模式
-  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: false                 # 是否开启自动造词
-    注意: 无法使用临时自动造词（精准造词）模式。
+<br>translator:<br/>
+<br>  enable_sentence: false                # 句子输入模式<br/>
+<br>  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）<br/>
+<br>  enable_encoder: false                 # 是否开启自动造词<br/>
+<br>注意: 无法使用临时自动造词（精准造词）模式。<br/>
 
 ## 8. 单字派
-		如果你是单字派，只打单字，可以修改 mishi_wubi.schema.yaml 这个文件，找到以下位置，根据需要去除对应行前面的 #，重新部署即可生效。
-		filters:
-		#   - lua_filter@single_char_first_filter # 单字优先
-		#    - lua_filter@single_char_only # 纯单字
+<br>如果你是单字派，只打单字，可以修改 mishi_wubi.schema.yaml 这个文件，找到以下位置，根据需要去除对应行前面的 #，重新部署即可生效。<br/>
+<br>filters:<br/>
+<br>#   - lua_filter@single_char_first_filter # 单字优先<br/>
+<br>#    - lua_filter@single_char_only # 纯单字<br/>
 # 六、致谢
-		感谢米十五笔输入法的发明人李明先生、「Rime/中州韵」输入法引擎的开发者佛振先生、以及分享的 Rime 定制方案的 KyleBing、f1ynng8、yanhuacuo！
+<br>感谢米十五笔输入法的发明人李明先生、「Rime/中州韵」输入法引擎的开发者佛振先生、以及分享的 Rime 定制方案的 KyleBing、f1ynng8、yanhuacuo！<br/>
 
