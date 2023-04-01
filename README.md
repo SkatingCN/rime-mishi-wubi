@@ -13,6 +13,15 @@
 <br>① 到[官网](https://rime.im/download/)相关链接下载，按步骤安装即可；<br/>
 <br>② macOS 上的鼠须管配置文件存放目录是 ~/Library/Rime，把 Rime 文件夹中的文件（含文件夹）移到 Rime 目录中，点击状态栏上的输入法图标，下拉菜单中选择“部署 (英文是Deploy）”，或者可以直接使用快捷键 control + option + ~ <br/>
 <br>注意：Rime 目录下的 Build 目录是程序生成的，不要把配置文件放在那里面，无视它即可。<br/>
+
+~/Library/
+└── Rime
+    ├── 该项目中的文件
+    ├── 该项目中的文件
+    ├── 该项目中的文件
+    ├── ...
+    ├── ...
+
 <br>注意：需要将你下载的文件放入 /Users/你用户名/Library/Rime 这个目录下，明白了吗？<br/>
 ## 3. Ubuntu (ibus-rime)
 <br>执行下面指令安装 ibus-rime 输入法<br/>
