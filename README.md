@@ -10,7 +10,7 @@
 <br>**注意**： Rime 目录下的 `Build` 目录是程序生成的，不要把配置文件放在那里面，无视它即可。<br/>
 ## 2. macOS（鼠须管）
 <br>① 到[官网下载](https://rime.im/download/)相关链接下载，按步骤安装；
-<br>② `macOS` 上的鼠须管配置文件存放目录是 `~/Library/Rime`，把本项目中的文件（含文件夹）移到 `Rime` 目录中，点击状态栏上的输入法图标，下拉菜单中选择“部署 (英文是`Deploy`）”，或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd> 
+<br>② macOS 上的鼠须管配置文件存放目录是 `~/Library/Rime`，把本项目中的文件（含文件夹）移到 `Rime` 目录中，点击状态栏上的输入法图标，下拉菜单中选择“部署 (英文是`Deploy`）”，或者可以直接使用快捷键 <kbd>control</kbd> + <kbd>option</kbd> + <kbd>~</kbd> 
 <br>**注意**：Rime 目录下的 Build 目录是程序生成的，不要把配置文件放在那里面，无视它即可。
 <br>放的时候目录结构是这样的：
 ```bash
