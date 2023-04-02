@@ -124,6 +124,3 @@ __资源链接__
 - [x] Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
 - [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
 - [x] 86版极点五笔的输入配置方案：： [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
-
-
-<br>感谢米十五笔输入法的发明人[李明先生](http://www.jpwb.cc/MJWB.htm)、「Rime/中州韵」输入法引擎的开发者[佛振先生](https://rime.im/)、以及分享的 Rime 定制方案的 [KyleBing](https://github.com/KyleBing/rime-wubi86-jidian)、[f1ynng8](https://github.com/f1ynng8/rime-wubi86-jidian)、[yanhuacuo](https://github.com/yanhuacuo/98wubi)！<br/>
