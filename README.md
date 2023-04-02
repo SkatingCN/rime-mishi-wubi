@@ -8,7 +8,7 @@
 ## 1. Windows（小狼毫）
 <br>① 到[官网下载](https://rime.im/download/)相关链接下载小狼毫并安装；
 <br>② 右击状态栏中的小狼毫输入法图标（中字），选择“用户文件夹”，把本项目中的文件（含文件夹）复制到里面，右击状态栏中的小狼毫输入法图标（中字），选择“重新部署 即可。
-<br>注意： Rime 目录下的 Build 目录是程序生成的，不要把配置文件放在那里面，无视它即可。<br/>
+<br>**注意**： Rime 目录下的 Build 目录是程序生成的，不要把配置文件放在那里面，无视它即可。<br/>
 ## 2. macOS（鼠须管）
 <br>① 到[官网下载](https://rime.im/download/)相关链接下载，按步骤安装即可；
 <br>② macOS 上的鼠须管配置文件存放目录是 ~/Library/Rime，把本项目中的文件（含文件夹）移到 Rime 目录中，点击状态栏上的输入法图标，下拉菜单中选择“部署 (英文是Deploy）”，或者可以直接使用快捷键 control + option + ~ 
@@ -30,11 +30,13 @@
 <br>ubuntu 的配置文件目录在
 <br>~/.config/ibus/rime/<br/>
 # 三、扩展词库
-    默认已添加的词库有：
+<br>默认已添加的词库有：
+```yaml
     - mishi_wubi                          # 米十五笔词库
     - mishi_wubi_extra                    # 扩展词库
     - mishi_wubi_extra_district           # 扩展词库 - 行政区域（默认不启用）
     - mishi_wubi_user.dict.yaml           # 用户词库（用户常用而以上词库未收录的词，可自行添加到该词库）
+```
 <br>可以通过修改 mishi_wubi.dict.yaml 文件头部的部分来启用、停用某一个词库。
 <br>比如想启用（停用）“行政区域”这个词库，直接直接删除该行前面的 # （在该行前面添加 # ），执行输入法的“重新部署”操作后即可生效。“行政区域”这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。<br/>
 # 四、使用说明
@@ -98,7 +100,7 @@
 <br>正常中文输入模式下，不会进行自动造词，只有按 ` 键才会进入临时自动造词模式（保存在用户文件夹的 mishi_wubi.userdb）。
 <br> 输入单字编码（1～4位）后使用 ` 键分隔编码，并继续输入新的单字编码，连续输完欲组词单字编码后，如上屏词不对，使用方向键（←→或↑↓）依次定位到正确候选字并按空格键确认。使用空格键将选中的词组上屏后即自动学习为新词组。造好的词上屏后不能回删，否则不记录。造好的词需再次上屏才能转正。
 <br>删词操作：定位到要删除的词条上面按Shift+Delete删除，此操作只对造词有效！
-<br>注意: 无法使用四码唯一自动上屏的功能。<br/>
+<br>**注意**: 无法使用四码唯一自动上屏的功能。<br/>
 ## 7. 开启四码唯一自动上屏
 <br>需要修改 mishi_wubi.schema.yaml 下面几个内容
 <br>speller:
@@ -108,11 +110,20 @@
 <br>  enable_sentence: false                # 句子输入模式
 <br>  enable_user_dict: false               # 是否开启用户词典（用户词典记录动态字词频，用户词）
 <br>  enable_encoder: false                 # 是否开启自动造词
-<br>注意: 无法使用临时自动造词（精准造词）模式。<br/>
+<br>**注意**: 无法使用临时自动造词（精准造词）模式。<br/>
 ## 8. 单字派
 <br>如果你是单字派，只打单字，可以修改 mishi_wubi.schema.yaml 这个文件，找到以下位置，根据需要去除对应行前面的 #，重新部署即可生效。
 <br>filters:
 <br>#   - lua_filter@single_char_first_filter # 单字优先
 <br>#    - lua_filter@single_char_only # 纯单字<br/>
-# 六、致谢
+# 六、其它相关链接
+
+__资源链接__
+- [x] 米十五笔输入法官方主页：  [https://github.com/rime/rime-wubi](http://www.jpwb.cc/MJWB.htm)
+- [x] Rime github 地址：  [https://github.com/rime]( https://github.com/rime)
+- [x] Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
+- [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
+- [x] 86版极点五笔的输入配置方案：： [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+
+
 <br>感谢米十五笔输入法的发明人[李明先生](http://www.jpwb.cc/MJWB.htm)、「Rime/中州韵」输入法引擎的开发者[佛振先生](https://rime.im/)、以及分享的 Rime 定制方案的 [KyleBing](https://github.com/KyleBing/rime-wubi86-jidian)、[f1ynng8](https://github.com/f1ynng8/rime-wubi86-jidian)、[yanhuacuo](https://github.com/yanhuacuo/98wubi)！<br/>
