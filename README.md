@@ -137,7 +137,11 @@ __米十五笔输入法__
 - [x] 米十五笔输入法官方主页：  [http://www.jpwb.cc/MJWB.htm](http://www.jpwb.cc/MJWB.htm)
 
 __Rime 资源链接__
-- [x] Rime github 地址：  [https://github.com/rime]( https://github.com/rime)
-- [x] Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
+- [x] Rime github 地址：  [https://github.com/rime](https://github.com/rime)
+- [x] Rime 输入方案集合：  [https://github.com/rime/plum](https://github.com/rime/plum)
 - [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
 - [x] 86版极点五笔的输入配置方案：： [https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+
+__字体资源链接__
+- [x] 遍黑体：  [https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)
+- [x] Noto Color Emoji SVG：  [https://github.com/adobe-fonts/noto-emoji-svg]( https://github.com/adobe-fonts/noto-emoji-svg)
