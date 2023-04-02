@@ -118,9 +118,9 @@
 <br>#    - lua_filter@single_char_only # 纯单字<br/>
 # 六、其它相关链接
 __米十五笔输入法__
-- [x] 米十五笔输入法官方主页：  [https://github.com/rime/rime-wubi](http://www.jpwb.cc/MJWB.htm)
+- [x] 米十五笔输入法官方主页：  [http://www.jpwb.cc/MJWB.htm](http://www.jpwb.cc/MJWB.htm)
 
-__资源链接__
+__Rime 资源链接__
 - [x] Rime github 地址：  [https://github.com/rime]( https://github.com/rime)
 - [x] Rime 输入方案集合：  [https://github.com/rime/plum]( https://github.com/rime/plum)
 - [x] Rime 简拼输入方案：  [https://github.com/rime/rime-pinyin-simp](https://github.com/rime/rime-pinyin-simp)
