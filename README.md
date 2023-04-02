@@ -48,9 +48,9 @@
 ## 3. 默认二三候选
 <br>默认的二三候选是<kbd>;</kbd> <kbd>'</kbd> 两个键<br/>
 ## 4. 候选翻页
-<br>方向  <kbd>上↑<kbd><kbd>下↓<kbd> 或 <kbd>左←<kbd><kbd>右→<kbd>
-<br>翻页   <kbd>-<kbd> <kbd>=<kbd> 或 <kbd>page_up<kbd> <kbd>Page_Down<kbd>
-<br>默认已关闭<kbd> [<kbd><kbd> ]<kbd> 的上下翻页功能，如果需要请修改 default.custom.yaml 内容。<br/>
+<br>方向  <kbd>上↑</kbd><kbd>下↓</kbd> 或 <kbd>左←</kbd><kbd>右→</kbd>
+<br>翻页   <kbd>-</kbd> <kbd>=</kbd> 或 <kbd>page_up</kbd> <kbd>Page_Down</kbd>
+<br>默认已关闭<kbd> [</kbd><kbd> ]</kbd> 的上下翻页功能，如果需要请修改 default.custom.yaml 内容。<br/>
 ## 5. 临时拼音输入
 <br>/键可以进入临时拼音输入模式，拼音输入的字词支持米十五笔编码反查。<br/>
 ## 6. 支持 简入繁出
