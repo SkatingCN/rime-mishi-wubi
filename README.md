@@ -144,4 +144,4 @@ __Rime 资源链接__
 
 __字体资源链接__
 - [x] 遍黑体：  [https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)
-- [x] Noto Color Emoji SVG：  [https://github.com/adobe-fonts/noto-emoji-svg]( https://github.com/adobe-fonts/noto-emoji-svg)
+- [x] Noto Color Emoji Font：  [https://github.com/googlefonts/noto-emoji]( https://github.com/googlefonts/noto-emoji)
