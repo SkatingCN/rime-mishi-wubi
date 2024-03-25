@@ -7553,6 +7553,7 @@ encoder:
 刚走	cxtn
 网址	cxtn
 髯	cxtr
+刚需	cxts
 闷雷	cxtt
 𬮱	cxty
 闉	cxty
@@ -14757,6 +14758,7 @@ encoder:
 理发	filr
 瞎编	filw
 三字经	fily
+𤤺	fily
 琛	fim
 琛	fimc
 理想	fimf
@@ -14793,7 +14795,6 @@ encoder:
 理化	firl
 瞑	firm
 瞚	firs
-𤤺	firy
 璌	firy
 瑄	fis
 目空一切	fisl
@@ -19417,6 +19418,7 @@ encoder:
 火灾	hhih
 秋日	hhii
 鵙	hhij
+火暴	hhik
 火电	hhil
 鶖	hhiq
 火星	hhir
@@ -23401,7 +23403,6 @@ encoder:
 电贺	ilqo
 电气	ilqq
 照章办事	ilqs
-曳	ilr
 电价	ilra
 它们	ilrc
 电传	ilrd
@@ -23414,7 +23415,6 @@ encoder:
 穷乡僻壤	ilrt
 𬁠	ilrx
 电信	ilry
-曳	ilry
 电平	ilsd
 电磁	ilsk
 电刑	ilsk
@@ -23470,6 +23470,7 @@ encoder:
 宰杀	ilxm
 突发性	ilxr
 昱	ily
+曳	ily
 电视	ilyc
 电台	ilyo
 电鱼	ilyr
@@ -26656,6 +26657,7 @@ encoder:
 抽奖	jiku
 披星戴月	jiku
 挖	jil
+拽	jil
 揭	jil
 提纲	jilc
 担纲	jilc
@@ -26674,6 +26676,7 @@ encoder:
 探戈	jils
 拕	jilt
 挖	jilw
+拽	jilz
 挓	jilz
 探	jim
 抽检	jima
@@ -26736,7 +26739,7 @@ encoder:
 提气	jiqq
 挖方	jiqw
 擦边	jiqz
-拽	jir
+摈	jir
 提价	jira
 摈	jirb
 擦身	jirc
@@ -26761,7 +26764,6 @@ encoder:
 按住	jirw
 捏住	jirw
 拽住	jirw
-拽	jirz
 担	jis
 抻面	jisc
 担	jisd
@@ -35606,6 +35608,7 @@ encoder:
 絇	lboq
 约车	lbpp
 约达	lbpz
+约架	lbqo
 约分	lbrq
 新陈代谢	lbrw
 繏	lbrx
@@ -35618,6 +35621,7 @@ encoder:
 鸢	lbsy
 约需	lbts
 约略	lbtu
+约饭	lbul
 约法	lbvt
 约请	lbwf
 约谈	lbwh
@@ -36488,6 +36492,7 @@ encoder:
 縄	lils
 紽	lilt
 缩编	lilw
+絏	lilx
 音标	limd
 意想	limf
 綶	limg
@@ -36542,7 +36547,6 @@ encoder:
 划时代	lirl
 结晶体	lirm
 音像	liru
-絏	lirx
 音信	liry
 𬙂	liry
 縯	liry
@@ -39791,6 +39795,7 @@ encoder:
 梦寐以求	mils
 柁	milt
 查结	milt
+栧	mily
 棵	mim
 棕榈	mimc
 查档	mime
@@ -39834,7 +39839,6 @@ encoder:
 查分	mirq
 查重	mirs
 柼	miry
-栧	miry
 楦	mis
 查	misc
 楦	misx
@@ -39971,6 +39975,7 @@ encoder:
 桃花运	mkdy
 棋迷	mkdz
 权当	mkee
+槽点	mkeo
 树上	mkes
 横幅	mkes
 槿	mkf
@@ -41630,6 +41635,7 @@ encoder:
 齓	nalc
 龁	nalh
 齕	nalh
+𱌱	nalx
 齥	nalx
 龇	nalz
 齜	nalz
@@ -41660,7 +41666,6 @@ encoder:
 齮	naoy
 齬	naoy
 齿轮	napa
-𱌱	narx
 𱌫	nary
 孅	nas
 孅	nasq
@@ -42285,6 +42290,7 @@ encoder:
 婫	nilk
 风景线	nill
 跎	nilt
+跩	nilz
 踝	nim
 踝	nimh
 白日梦	nimm
@@ -42319,7 +42325,6 @@ encoder:
 嫔	nirp
 踢倒	nirs
 嫁入	nirw
-跩	nirz
 妲	nis
 妲	nisd
 好景不常	nise
@@ -43685,6 +43690,7 @@ encoder:
 几乎	nrrk
 几千	nrrk
 跃升	nrrk
+跃迁	nrrk
 几位	nrrl
 几倍	nrrl
 几代	nrrl
@@ -51684,6 +51690,7 @@ encoder:
 驼	qilt
 駝	qilt
 猲	qilx
+㹭	qily
 猓	qim
 复检	qima
 猓	qimg
@@ -51724,7 +51731,6 @@ encoder:
 猽	qirm
 复件	qirr
 复选	qirt
-㹭	qiry
 狖	qiry
 乍暖还寒	qisi
 验明正身	qisr
@@ -70731,6 +70737,7 @@ encoder:
 混纺	vilq
 沱	vilt
 混编	vilw
+洩	vilx
 𣸭	vily
 戦	vilz
 深	vim
@@ -70834,7 +70841,6 @@ encoder:
 混入	virw
 沉入	virw
 溶入	virw
-洩	virx
 泬	virx
 深信	viry
 演	viry
