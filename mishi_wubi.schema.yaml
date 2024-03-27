@@ -17,23 +17,23 @@ schema:
 switches:
 #  - name: ascii_mode
 #    reset: 0
-#    states: [ 中, 英 ]
+#    states: [ 中,英 ]
   - name: zh_trad
     reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
-    states: [ 简, 繁 ]
+    states: [ 简,繁 ]
   - name: extended_charset
-    states: [ 常, 扩 ]
+    states: [ 常,扩 ]
     reset: 1
   - name: emoji_suggestion
     reset: 1
-    states: [ 🈚︎, 🈶️ ]
+    states: [ 🈚︎,🈶️ ]
   - name: single_char
     reset: 0
     states: [ 词,单 ]
   - name: ascii_punct
-    states: [ 。，, ．， ]
+    states: [ 。，,．， ]
   - name: full_shape
-    states: [ 半, 全 ]
+    states: [ 半,全 ]
 
 engine:
   processors:
