@@ -24,8 +24,6 @@ switches:
   - name: extended_charset
     states: [ 常, 扩 ]
     reset: 1
-  - name: mswb_spelling
-    states: [ 🈴️, 🈹️ ]
   - name: emoji_suggestion
     reset: 1
     states: [ 🈚︎, 🈶️ ]
@@ -137,7 +135,6 @@ key_binder:
     - {send: Escape, accept: space, when: composing}
     - {send: space, accept: space, when: has_menu}
     - {toggle: zh_trad, accept: "Control+Shift+F", when: always}
-    - {toggle: mswb_spelling, accept: "Control+Shift+H", when: always}
     - {toggle: single_char, accept: "Control+Shift+K", when: always}
     - {toggle: extended_charset, accept: "Control+Shift+U", when: always}
     - {accept: semicolon, send: 2, when: has_menu}
