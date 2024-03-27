@@ -7,7 +7,7 @@ function single_char(input, env)
 	local b = env.engine.context:get_option(single_keyword)
 	local input_text = env.engine.context.input
 	for cand in input:iter() do
-		if (not b or utf8.len(cand.text) == 1 or table.vIn(rv_var, input_text) or input_text:find("^z") or input_text:find("^[%u%p]")) then
+		if (not b or utf8.len(cand.text) == 1 or table.vIn(rv_var, input_text) or input_text:find("^[%u%p]")) then
 			yield(cand)
 		end
 	end
