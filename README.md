@@ -44,10 +44,10 @@ sudo apt-get install ibus-rime
 <br>比如想启用（停用）“行政区域”这个词库，直接直接删除该行前面的 `#` （在该行前面添加 `#` ），执行输入法的“重新部署”操作后即可生效。“行政区域”这个词库有 3000 多个词条，可能会导致重码变多，可以根据自己需要删减其内容，文件中已经根据省份划分地域名了。<br/>
 ## 四、使用说明
 ### 1. 组合键
-<br><kbd>control</kbd> + <kbd>`</kbd>		切换方案
-<kbd>control</kbd> + <kbd>shift</kbd> + <kbd>H</kbd>		拆分显隐
-<kbd>control</kbd> + <kbd>shift</kbd> + <kbd>U</kbd>		字集选择
-<kbd>control</kbd> + <kbd>shift</kbd> + <kbd>K</kbd>		单字模式
+<br><kbd>control</kbd> + <kbd>`</kbd>		切换方案<br/>
+<br><kbd>control</kbd> + <kbd>shift</kbd> + <kbd>H</kbd>		拆分显隐<br/>
+<br><kbd>control</kbd> + <kbd>shift</kbd> + <kbd>U</kbd>		字集选择<br/>
+<br><kbd>control</kbd> + <kbd>shift</kbd> + <kbd>K</kbd>		单字模式<br/>
 ### 2. 选项菜单
 <br>在输入状态时，<kbd>control</kbd> + <kbd>0</kbd>  弹出菜单。
 <br>弹出的菜单中，处于第一位的是当前使用的输入法方案，其后跟着是该方案中的输入法菜单，有【半 - 全】【简 - 繁】等常见功能菜单，再后面是其它可选的输入法方案，对应 `default.custom.yaml` 中 `schema_list` 字段内容。<br/>
