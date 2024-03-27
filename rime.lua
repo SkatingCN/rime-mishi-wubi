@@ -1,28 +1,17 @@
+-- --=========================================================关键字修改--==========================================================
+single_keyword="single_char"	-- 单字过滤switcher参数
+-- --==========================================================--==========================================================
 -- encoding: utf-8
---- 过滤器：单字在先
-function single_char_first_filter(input)
-    local l = {}
-    for cand in input:iter() do
-        if (utf8.len(cand.text) == 1) then
-            yield(cand)
-        else
-            table.insert(l, cand)
-        end
-    end
-    for i, cand in ipairs(l) do
-        yield(cand)
-    end
-end
-
 --- 过滤器：只显示单字
-function single_char_only(input)
-    for cand in input:iter() do
-        if (utf8.len(cand.text) == 1) then
-            yield(cand)
-        end
-    end
+function single_char(input, env)
+	local b = env.engine.context:get_option(single_keyword)
+	local input_text = env.engine.context.input
+	for cand in input:iter() do
+		if (not b or utf8.len(cand.text) == 1 or table.vIn(rv_var, input_text) or input_text:find("^z") or input_text:find("^[%u%p]")) then
+			yield(cand)
+		end
+	end
 end
-
 
 -- 功能比较简单,只提供日期,时间的快速输入
 -- 2021年2月24日 10:48 by 环环  深山红叶优化

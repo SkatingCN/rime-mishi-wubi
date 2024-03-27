@@ -8,27 +8,34 @@ schema:
   author:
     - 创始人 李明先生
   description: |
-    米十五笔，方案由 Skating 修改 - 2023年02月25日
+    米十五笔
+    方案由 Skating 修改
+    敲 / 键进入拼音反查
   dependencies:
     - pinyin_simp
 
 switches:
 #  - name: ascii_mode
 #    reset: 0
-#    states: [ 中文, 英文 ]
+#    states: [ 中, 英 ]
   - name: zh_trad
     reset: 0    # 初始状态为 0: 简 -> 简 1: 简 -> 繁
-    states: [ 简体, 繁体 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
+    states: [ 简, 繁 ]
   - name: extended_charset
-    states: [ 常用, 扩展 ]
+    states: [ 常, 扩 ]
     reset: 1
-  - name: ascii_punct
-    states: [ 。，, ．， ]
+  - name: mswb_spelling
+    states: [ 🈴️, 🈹️ ]
   - name: emoji_suggestion
     reset: 1
     states: [ 🈚︎, 🈶️ ]
+  - name: single_char
+    reset: 0
+    states: [ 词,单 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: full_shape
+    states: [ 半, 全 ]
 
 engine:
   processors:
@@ -57,8 +64,7 @@ engine:
   filters:
     - simplifier@emoji_suggestion
     - simplifier@tradition
-#    - lua_filter@single_char_first_filter # 单字优先
-#    - lua_filter@single_char_only # 纯单字
+    - lua_filter@single_char # 纯单字
     - uniquifier
 
 speller:
@@ -123,7 +129,21 @@ punctuator:
   import_preset: default
 
 key_binder:
-  import_preset: default
+  bindings:
+    - {send: Up, accept: Left, when: has_menu}
+    - {send: Down, accept: Right, when: has_menu}
+    - {send: Page_Up, accept: minus, when: has_menu}
+    - {send: Page_Down, accept: equal, when: has_menu}
+    - {send: Escape, accept: space, when: composing}
+    - {send: space, accept: space, when: has_menu}
+    - {toggle: zh_trad, accept: "Control+Shift+F", when: always}
+    - {toggle: mswb_spelling, accept: "Control+Shift+H", when: always}
+    - {toggle: single_char, accept: "Control+Shift+K", when: always}
+    - {toggle: extended_charset, accept: "Control+Shift+U", when: always}
+    - {accept: semicolon, send: 2, when: has_menu}
+    - {accept: apostrophe, send: 3, when: has_menu}
+    - {accept: Return, send: Escape, when: composing}
+    - {accept: Return, send: Escape, when: has_menu}
 
 recognizer:
   import_preset: default

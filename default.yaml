@@ -1,0 +1,65 @@
+# Rime default settings
+# encoding: utf-8
+
+config_version: '0.50'
+
+schema_list:
+  - schema: mishi_wubi              # 米十五笔
+  - schema: numbers                 # 大写数字
+  - schema: mishi_wubi_pinyin       # 米十五笔拼音混输
+  - schema: mishi_wubi_trad         # 米十五笔 - 简入繁出
+  - schema: mishi_wubi_trad_pinyin  # 米十五笔拼音混输 - 简入繁出
+  - schema: pinyin_simp             # 普通拼音
+
+switcher:
+  caption: "〔方案菜单〕"
+  hotkeys:        # 弹出菜单的快捷键
+    - Control+grave
+    - Shift+Control+grave
+  save_options:
+    - full_shape
+    - ascii_punct
+    - simplification
+    - extended_charset
+    - zh_hant
+    - zh_hans
+    - zh_hant_tw
+  fold_options: true
+  abbreviate_options: true
+  option_list_separator: "｜"
+
+menu:
+  page_size: 9                    # 候选词数量，最多支持 10 个
+
+punctuator:
+  full_shape:
+    __include: punctuation:/full_shape
+  half_shape:
+    __include: punctuation:/half_shape
+
+key_binder:
+  bindings:
+    __patch:
+      - key_bindings:/emacs_editing  # emacs 习惯
+      - key_bindings:/move_by_word_with_tab  # tab键在单词间切换
+      - key_bindings:/paging_with_minus_equal  # 加号等号翻页
+      - key_bindings:/select_by_word_with_arrow   # 左右候选 ←→
+      - key_bindings:/select_by_word_with_semicolon   # 候选23用分号单引号
+      - key_bindings:/clean_by_word_with_Escape  # 回车清码
+      - key_bindings:/numbered_mode_switch  # Ctrl+Shift+数字 切换开关
+
+recognizer:
+  patterns:  # 一些常见的英文组合，当正则匹配到这些时，都不会生成候选词，而只输入英文
+    email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+    url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+
+ascii_composer:
+  good_old_caps_lock: true       # true: 在保持 cap 键原有的特征， false: 点击不会切换大小写
+  switch_key:
+    Shift_L: commit_code          # macOs 上 shift 键不区别左右，设置参数同上
+    Shift_R: commit_code
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: commit_code        # 如果想用 cap 键切换中英文输入，就修改为上面三种的任一一种，否则用 noop
+    Eisu_toggle: clear
