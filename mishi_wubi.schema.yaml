@@ -134,6 +134,7 @@ key_binder:
     - {send: Page_Down, accept: equal, when: has_menu}
     - {send: Escape, accept: space, when: composing}
     - {send: space, accept: space, when: has_menu}
+    - {toggle: emoji_suggestion, accept: "Control+Shift+E", when: always}
     - {toggle: zh_trad, accept: "Control+Shift+F", when: always}
     - {toggle: single_char, accept: "Control+Shift+K", when: always}
     - {toggle: extended_charset, accept: "Control+Shift+U", when: always}

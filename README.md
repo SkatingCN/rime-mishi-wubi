@@ -45,6 +45,7 @@ sudo apt-get install ibus-rime
 ## 四、使用说明
 ### 1. 组合键
 <br><kbd>control</kbd> + <kbd>`</kbd>		切换方案<br/>
+<br><kbd>control</kbd> + <kbd>shift</kbd> + <kbd>E</kbd>		emoji显隐<br/>
 <br><kbd>control</kbd> + <kbd>shift</kbd> + <kbd>U</kbd>		字集选择<br/>
 <br><kbd>control</kbd> + <kbd>shift</kbd> + <kbd>K</kbd>		单字模式<br/>
 ### 2. 选项菜单
