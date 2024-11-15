@@ -3233,7 +3233,6 @@ encoder:
 包罗	bbfu
 包皮	bbge
 包庇	bbgg
-鿣	bbgk
 包厢	bbgm
 刨床	bbgm
 巴黎	bbhb
@@ -3269,6 +3268,7 @@ encoder:
 巴林	bbmm
 包机	bbmn
 包好	bbnj
+鿣	bbnk
 包围	bbod
 巴中	bboe
 鿤	bbog
@@ -3628,6 +3628,7 @@ encoder:
 随遇而安	bisi
 聪明正直	bisk
 聪明才智	bisq
+𫠃	bisx
 陧	bit
 阳坡	bitg
 旬刊	bitj
@@ -4286,7 +4287,6 @@ encoder:
 附送	brkp
 阡	brkq
 卫生纸	brlh
-𫲦	brnm
 附中	broe
 卫生员	broh
 耳鼻喉科	broh
@@ -5148,7 +5148,6 @@ encoder:
 册立	ccll
 蝴蝶结	cclt
 蝄	cclw
-𰲹	ccly
 闽	ccm
 閩	ccm
 骨肉相连	ccmp
@@ -5419,6 +5418,7 @@ encoder:
 出发	celr
 出产	celr
 竪	cels
+𰲹	cely
 卧	cem
 卧柜	cemc
 出栏	cemd
@@ -7126,8 +7126,8 @@ encoder:
 闵	cum
 閔	cum
 阁楼	cumd
-𨳿	cumj
 𬮡	cumj
+𨳿	cumj
 阎	cun
 阎	cuny
 閻	cuny
@@ -9265,6 +9265,7 @@ encoder:
 紧裹	dkwi
 紧要	dkxn
 示范性	dkxr
+糟心	dkxw
 坚劲	dkyd
 斗勇	dkyu
 贤能	dkyu
@@ -11806,6 +11807,7 @@ encoder:
 山高	eewo
 当为	eewq
 当夜	eewr
+⺌	eewr
 巘	eewy
 当票	eexd
 肃杀	eexm
@@ -12057,6 +12059,7 @@ encoder:
 退休	egrm
 退保	egro
 群魔乱舞	egrq
+退选	egrt
 虚像	egru
 虚伪	egrw
 退伍	egrw
@@ -14828,6 +14831,7 @@ encoder:
 理性	fixr
 现实性	fixr
 瞎忙	fixw
+𤨎	fizq
 盯	fj
 瞪	fj
 盯防	fjbq
@@ -16141,7 +16145,6 @@ encoder:
 璃	fwyl
 瓋	fwz
 玉簪	fwzc
-𤨎	fwzq
 班长	fwzr
 瓋	fwzt
 玉盘	fwzv
@@ -17761,13 +17764,11 @@ encoder:
 强力	goqj
 强加	goqo
 强忍	goqw
-𦭜	gor
 强身	gorc
 强健	gore
 强生	gorf
 强敌	gorg
 强化	gorl
-𦭜	gorz
 疻	gorz
 强碱	gosg
 强逼	goso
@@ -18979,9 +18980,9 @@ encoder:
 歟	hday
 赠阅	hdcd
 爆冷门	hdcw
+𦥑	hddj
 炜	hde
 乕	hdeh
-𦥑	hdej
 燐	hdel
 炜	hdew
 嶨	hdex
@@ -19201,6 +19202,7 @@ encoder:
 虒	hen
 鳬	henf
 鳧	henf
+𤈛	heng
 贴好	henj
 稍好	henj
 穊	henj
@@ -20659,6 +20661,7 @@ encoder:
 炸	hqdz
 助战	hqeo
 助理	hqfi
+炸麦	hqfu
 炸弹	hqgd
 炸成	hqgj
 秣马厉兵	hqgj
@@ -20905,7 +20908,6 @@ encoder:
 后跟	hsne
 赋	hsnf
 賦	hsnf
-𤈛	hsng
 烦躁	hsno
 后妈	hsnq
 后路	hsnu
@@ -23984,7 +23986,6 @@ encoder:
 照亮	iqwo
 照遍	iqwp
 昨夜	iqwr
-𱡼	iqww
 照在	iqxe
 昭通	iqyu
 照管	iqzi
@@ -25084,6 +25085,7 @@ encoder:
 影评	iwws
 实证主义	iwww
 灬	iwww
+𱡼	iwww
 𰌷	iwww
 影	iwx
 晈	iwxj
@@ -25526,7 +25528,6 @@ encoder:
 抱屈	jbpc
 疏忽大意	jbpl
 拘役	jbpn
-𰓧	jbps
 把尿	jbpv
 憨态	jbpw
 报验	jbqa
@@ -26372,6 +26373,7 @@ encoder:
 鋬	jhap
 抓人	jhar
 抑	jhb
+抓包	jhbb
 抓取	jhbk
 孤岛	jhbw
 抑	jhby
@@ -26457,6 +26459,7 @@ encoder:
 抑制	jhqe
 抵制	jhqe
 抓狂	jhqf
+抓马	jhqj
 撈	jhql
 孤身	jhrc
 抵偿	jhre
@@ -26887,6 +26890,7 @@ encoder:
 打铁	jjaq
 打人	jjar
 折合	jjas
+执念	jjaw
 掀	jjax
 拆除	jjba
 拉拉队	jjba
@@ -27204,6 +27208,7 @@ encoder:
 打夯	jjpq
 执行	jjps
 书屋	jjps
+𰓧	jjps
 搎	jjps
 扬尘	jjpt
 势态	jjpw
@@ -28906,6 +28911,7 @@ encoder:
 插足	jrne
 挺好	jrnj
 插好	jrnj
+𫲦	jrnm
 托儿	jrnr
 挩	jrns
 九泉	jrnv
@@ -29915,6 +29921,7 @@ encoder:
 拔牙	jxcj
 扰民	jxcl
 扰动	jxdy
+兵凶战危	jxeu
 推心置腹	jxfu
 习惯成自然	jxgu
 抑郁寡欢	jxik
@@ -30049,6 +30056,7 @@ encoder:
 摇铃	jzaa
 辽金	jzaa
 投笔从戎	jzal
+摇人	jzar
 近人	jzar
 擌	jzas
 近邻	jzaw
@@ -30664,6 +30672,7 @@ encoder:
 对此	kcnl
 献媚	kcnp
 苉	kcnp
+逆跌	kcnq
 对白	kcnr
 南路	kcnu
 对路	kcnu
@@ -33270,12 +33279,14 @@ encoder:
 勤	koqq
 勸	koqq
 靿	koqy
+𦭜	kor
 勤俭	kora
 鞠躬	korc
 萼片	kore
 对号入座	korg
 苦中作乐	korh
 菌体	korm
+𦭜	korz
 鹳	kos
 鞋带	kosc
 鞋面	kosc
@@ -35894,6 +35905,7 @@ encoder:
 飞走	ldtn
 飞起	ldtn
 飞越	ldtn
+飞赴	ldtn
 红土	ldtt
 红壤	ldtw
 飞去	ldty
@@ -38142,6 +38154,7 @@ encoder:
 纯良	lswe
 𫄥	lswl
 緉	lswl
+纯享	lswo
 纯熟	lswo
 絿	lswq
 以不变应万变	lsww
@@ -41356,6 +41369,7 @@ encoder:
 术后	mwhs
 槠	mwi
 核实	mwid
+校审	mwii
 校官	mwii
 核电	mwil
 杧果	mwim
@@ -41933,6 +41947,7 @@ encoder:
 跟拍	nejn
 止损	nejo
 足	nejs
+⻊	nejs
 𧾷	nejs
 妇孺	nejt
 叟	nek
@@ -47064,6 +47079,7 @@ encoder:
 㗏	osnw
 号啕	osob
 吓唬	osoe
+嘎嘣	osoe
 喇嘛	osog
 团员	osoh
 号叫	osol
@@ -47757,6 +47773,7 @@ encoder:
 得人心	paxw
 轸	paxz
 軫	paxz
+𫐉	payl
 軨	payl
 彾	payl
 轮船	pazn
@@ -53804,6 +53821,7 @@ encoder:
 𲄙	rcql
 軂	rcql
 侗族	rcqq
+假旗	rcqq
 身边	rcqz
 身	rcr
 身价	rcra
@@ -56083,6 +56101,7 @@ encoder:
 千禧	rkyt
 仅能	rkyu
 迁	rkz
+升舱	rkza
 集装箱	rkzm
 垂暮之年	rkzq
 迁	rkzq
@@ -56166,6 +56185,7 @@ encoder:
 袋子	rljj
 位子	rljj
 货摊	rljk
+代拍	rljn
 代扣	rljo
 系扣	rljo
 货损	rljo
@@ -59218,6 +59238,7 @@ encoder:
 碉	sco
 硐	scod
 碉	scod
+砸中	scoe
 两国	scof
 耐听	scoj
 带回	scoo
@@ -60948,6 +60969,7 @@ encoder:
 不无	smdn
 还未	smdp
 下头	smdp
+互鉴	smdq
 不准	smdr
 不巧	smds
 严师	smds
@@ -62410,6 +62432,7 @@ encoder:
 研习	ssjd
 硬撑	ssje
 一批	ssjg
+硬控	ssji
 一打	ssjj
 石子	ssjj
 一下子	ssjj
@@ -62911,6 +62934,7 @@ encoder:
 殉道	sukr
 殡葬	suks
 殉葬	suks
+列装	sukt
 殪	suky
 残	sul
 残	sulc
@@ -63722,6 +63746,7 @@ encoder:
 靅	tdhf
 𱖭	tdhg
 干净利落	tdhk
+增程	tdho
 贄	tdhz
 增容	tdir
 增量	tdis
@@ -63780,6 +63805,7 @@ encoder:
 增值	tdrk
 增选	tdrt
 款爷	tdrx
+增信	tdry
 增开	tdsk
 霊	tdsl
 增速	tdso
@@ -65874,6 +65900,7 @@ encoder:
 雷暴	ttik
 雷电	ttil
 土星	ttir
+封窗	ttir
 土家	ttiz
 封控	ttji
 刲	ttjk
@@ -67987,6 +68014,7 @@ encoder:
 各区	uocx
 免进	uodd
 名单	uodi
+免单	uodi
 免于	uodj
 各类	uodp
 各项	uods
@@ -69871,6 +69899,7 @@ encoder:
 消食	veaw
 消除	veba
 消防	vebq
+消隐	vebu
 浔	vec
 浸出	vece
 淌出	vece
@@ -70711,6 +70740,7 @@ encoder:
 漫	vikm
 浓妆	vikn
 清官难断家务事	viks
+混装	vikt
 学前	viku
 混剪	viku
 油煎	viku
@@ -72334,6 +72364,7 @@ encoder:
 手写	vris
 手里	vrit
 浑身是胆	vriu
+手搓	vrjd
 洗掉	vrje
 手抓	vrjh
 手提	vrji
@@ -73855,6 +73886,7 @@ encoder:
 浮力	vzqj
 溪边	vzqz
 淫欲	vzra
+浮生	vzrf
 淫乱	vzrg
 浮华	vzrl
 浮选	vzrt
@@ -76283,6 +76315,7 @@ encoder:
 效验	wrqa
 效力	wrqj
 交加	wrqo
+夜骑	wrqp
 交办	wrqr
 効	wrqx
 交付	wrrc
@@ -77922,6 +77955,7 @@ encoder:
 惨绝人寰	xlai
 袭人	xlar
 聋	xlb
+尬聊	xlbh
 袭取	xlbk
 聋	xlbl
 龙骨	xlcj
@@ -80577,6 +80611,7 @@ encoder:
 补差	ymdv
 补上	ymes
 补光	ymes
+补录	ymev
 訃	ymf
 补强	ymgo
 补税	ymhd
@@ -82870,6 +82905,7 @@ encoder:
 长石	zrss
 长生不老	zrst
 笑死	zrsu
+⺮	zrsw
 箠	zrtc
 长城	zrtg
 笑场	zrtj
