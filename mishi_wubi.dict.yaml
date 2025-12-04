@@ -429,6 +429,7 @@ encoder:
 铜板	acmh
 钢模	acmk
 钢材	acms
+𰽢	acnx
 铜	aco
 錭	acod
 鍋	acog
@@ -617,6 +618,7 @@ encoder:
 命运多舛	aduu
 人工湖	advg
 会演	advi
+𲇕	advj
 𰾫	advj
 会诊	adwa
 会商	adwd
@@ -1003,6 +1005,7 @@ encoder:
 鍍	agkd
 铍	agkp
 鈹	agkp
+𰾲	agll
 鈚	aglp
 𬬫	aglp
 镰	agm
@@ -1240,6 +1243,7 @@ encoder:
 𫓽	aipc
 鑔	aipc
 錝	aipc
+𲈚	aipy
 鐛	aipy
 全日制	aiqe
 镔	air
@@ -1387,6 +1391,7 @@ encoder:
 错杂	akjm
 针插	akjr
 镬	akk
+𰽼	akkb
 鉼	akkb
 针对	akkc
 镬	akkh
@@ -1416,6 +1421,7 @@ encoder:
 鎌	akml
 鎟	akms
 锚杆	akmt
+𰾕	akmy
 鍱	akmy
 𨱏	ako
 𨱏	akod
@@ -2017,6 +2023,7 @@ encoder:
 锥	arf
 人眼	arfe
 人寿	arfr
+𰽫	arfs
 鉎	arfs
 锥	arfz
 錐	arfz
@@ -2236,6 +2243,7 @@ encoder:
 拿点	aseo
 合群	aser
 合建	aset
+𰂅	asex
 合奏	asfa
 合眼	asfe
 合理	asfi
@@ -2452,6 +2460,7 @@ encoder:
 合议	asww
 愈	asx
 合情	asxf
+𰾶	asxh
 鏸	asxh
 合龙	asxl
 鑈	asxn
@@ -2543,6 +2552,7 @@ encoder:
 锶	atxs
 鍶	atxs
 舒心	atxw
+𲇽	atxz
 鋕	atxz
 鐽	atzd
 舒筋	atzu
@@ -3469,6 +3479,7 @@ encoder:
 隚	bett
 陗	beuq
 限流	bevw
+限高	bewo
 巴山夜雨	bewt
 除旧布新	bexl
 阳奉阴违	bfbd
@@ -4412,6 +4423,7 @@ encoder:
 陋俗	bsrr
 耳垂	bsrs
 取而代之	bsrz
+𲉎	bssh
 隔开	bssk
 隔天	bssp
 匐	bst
@@ -5298,14 +5310,15 @@ encoder:
 蚩	cec
 屮	cec
 出	cec
+𰿥	cec
 蚩	cecc
 虫牙	cecj
 臣民	cecl
 出门	cecw
 螳螂	cecw
 虫蛀	cecw
-蟳	cecx
 𫊻	cecx
+蟳	cecx
 出过	cecz
 粜	ced
 出击	cede
@@ -6868,6 +6881,7 @@ encoder:
 顺路	csnu
 同路	csnu
 闭路	csnu
+𱿯	csnw
 顺风	csnx
 闭嘴	cson
 顺口	csoo
@@ -7740,7 +7754,6 @@ encoder:
 着	d
 规	da
 冷	da
-𰁸	da
 巫	daa
 冷链	daap
 夫人	daar
@@ -8103,6 +8116,7 @@ encoder:
 运动场	ddtj
 进境	ddtl
 进士	ddts
+𰣘	ddtt
 进去	ddty
 米色	ddub
 运动服	ddub
@@ -9029,6 +9043,7 @@ encoder:
 籽棉	djmn
 专业	djms
 亏本	djms
+𱂊	djms
 韬	djn
 韬	djnt
 专员	djoh
@@ -9364,6 +9379,7 @@ encoder:
 规章制度	dlqg
 断气	dlqq
 无以复加	dlqq
+𰪼	dlrc
 断片	dlre
 凝集	dlrf
 总产值	dlrk
@@ -9754,6 +9770,7 @@ encoder:
 远郊	dnwr
 无证	dnws
 总的说来	dnws
+𱸴	dnws
 无谓	dnwt
 无语	dnww
 远离	dnwx
@@ -10178,6 +10195,7 @@ encoder:
 功绩	dqlf
 临产	dqlr
 临终	dqlu
+𰪪	dqm
 临检	dqma
 监禁	dqmm
 功业	dqms
@@ -10687,6 +10705,7 @@ encoder:
 翷	dudl
 次数	dudn
 无用功	dudq
+𱹁	dudq
 粼粼	dudu
 无怨无悔	dudx
 粢	dudz
@@ -11592,6 +11611,7 @@ encoder:
 战斗机	edmn
 当头棒喝	edmo
 嵝	edn
+𱛯	ednd
 𭘓	ednh
 嵝	ednl
 帨	edns
@@ -12157,6 +12177,7 @@ encoder:
 凸透镜	ehal
 峁	ehb
 灵异	ehbk
+𲆔	ehbl
 峁	ehbm
 𨜓	ehbz
 灵丹	ehcw
@@ -12216,6 +12237,7 @@ encoder:
 灵活	ehvr
 贞洁	ehvt
 岻	ehwc
+𱛘	ehww
 灵性	ehxr
 巍	ehy
 灵台	ehyo
@@ -12259,6 +12281,7 @@ encoder:
 常数	eidn
 赏鉴	eidq
 岫	eie
+𱛖	eieb
 崇尚	eiec
 崆峒	eiec
 常	eiec
@@ -12383,6 +12406,7 @@ encoder:
 帽徽	eipe
 旧居	eipg
 常轨	eipj
+𰎝	eipj
 幜	eipj
 常德	eipk
 崇德	eipk
@@ -12535,6 +12559,7 @@ encoder:
 群英会	ekad
 嵌银	ekae
 嵌	ekaq
+𱛻	ekay
 寻花问柳	ekcm
 嵽	eked
 崂山	ekee
@@ -12948,6 +12973,7 @@ encoder:
 𡶐	eqoq
 岧	eqot
 上气不接下气	eqsq
+𱜎	eqtm
 蜚短流长	eqvz
 屻	eqwr
 𰎫	eqwy
@@ -13210,6 +13236,7 @@ encoder:
 上部	eslo
 光纤	eslr
 上翘	eslr
+𰀂	esls
 光绪	eslt
 岩缝	eslu
 凸缝	eslu
@@ -13656,6 +13683,7 @@ encoder:
 崹	ewet
 崀	ewg
 崀	ewgl
+𱛾	ewgw
 崞	ewj
 崞	ewjg
 建议书	ewjj
@@ -14833,6 +14861,7 @@ encoder:
 眼明手快	fivx
 三明治	fivy
 理论	fiwa
+𱯄	fiwb
 瞎说	fiwd
 珠宝商	fiwd
 瞎话	fiwr
@@ -14852,6 +14881,7 @@ encoder:
 盯紧	fjdk
 盯着	fjdv
 珝	fjdx
+𱲥	fjdy
 盯上	fjes
 瑋	fjew
 瞪眼	fjfe
@@ -15240,6 +15270,7 @@ encoder:
 耙	fpb
 耙	fpbb
 耨	fpc
+𰡰	fpc
 耟	fpcj
 耨	fpcn
 罻	fpcw
@@ -16038,8 +16069,10 @@ encoder:
 罚钱	fwal
 玉坠	fwba
 瑯	fwbl
+𰡻	fwcn
 玉雕	fwct
 玉门	fwcw
+𰥛	fwcx
 班规	fwda
 玉米	fwdd
 玉兰	fwdf
@@ -16188,9 +16221,10 @@ encoder:
 静悄悄	fxxe
 罹祸	fxyo
 眸	fy
-瞓	fycf
 罸	fycf
+瞓	fycx
 丟	fyd
+𰢑	fyil
 羆	fyip
 罰	fyjf
 眸子	fyjj
@@ -17845,6 +17879,7 @@ encoder:
 庵	gpla
 厅局级	gpln
 痆	gpln
+𰗜	gpmy
 癖好	gpnj
 瘲	gpnz
 療	gppl
@@ -18074,6 +18109,7 @@ encoder:
 感天动地	gsdt
 感动	gsdy
 古	gse
+𱑞	gsed
 鿮	gsed
 古	gsee
 病退	gseg
@@ -18627,6 +18663,7 @@ encoder:
 庞大	gxps
 应有尽有	gxpx
 强有力	gxqj
+𱑝	gxs
 感慨万端	gxsl
 感慨万千	gxsr
 强心剂	gxud
@@ -19541,6 +19578,7 @@ encoder:
 火速	hhso
 秋天	hhsp
 鹙	hhsq
+𱴛	hhsq
 鹦	hhsy
 熘	hht
 租界	hhta
@@ -19629,6 +19667,7 @@ encoder:
 熔点	hieo
 焊点	hieo
 熔岩	hies
+𱪳	hiey
 秞	hiey
 赗	hif
 香艳	hife
@@ -20786,6 +20825,7 @@ encoder:
 贬低	hrrh
 贬值	hrrk
 具体化	hrrl
+𱫍	hrrl
 具体	hrrm
 反躬自省	hrrp
 利欲熏心	hrrx
@@ -21139,6 +21179,7 @@ encoder:
 称职	hubo
 败阵	hubp
 移防	hubq
+𱶅	hubs
 后脑勺	hubw
 移出	huce
 称臣	huce
@@ -21717,9 +21758,9 @@ encoder:
 和盘托出	hzjc
 稃	hzjf
 稻草	hzki
-𬊺	hzkn
 煖	hzkn
 稻花	hzkr
+𬊺	hzkw
 账本	hzms
 稻	hzn
 稻	hznd
@@ -22968,6 +23009,7 @@ encoder:
 昌都	iitr
 日志	iitx
 冥思	iitx
+𱗷	iitx
 官服	iiub
 官腔	iiui
 官名	iiuo
@@ -27213,6 +27255,7 @@ encoder:
 哲	jjoz
 啠	jjoz
 揆	jjp
+𰛄	jjp
 扭转	jjpd
 打转	jjpd
 垫层	jjpd
@@ -29028,6 +29071,7 @@ encoder:
 推诿	jrwh
 托词	jrwj
 𢯺	jrwj
+𰛅	jrwl
 推敲	jrwo
 挺高	jrwo
 插话	jrwr
@@ -29239,6 +29283,7 @@ encoder:
 疏而不漏	jssv
 打开天窗说亮话	jssw
 卐	jssw
+𰌦	jssy
 挜	jssy
 掗	jssy
 孲	jssy
@@ -29938,6 +29983,7 @@ encoder:
 拔剑	jxas
 拔除	jxba
 可怜巴巴	jxbb
+𱟫	jxc
 拔出	jxce
 可怜虫	jxce
 拔牙	jxcj
@@ -30489,6 +30535,7 @@ encoder:
 警界	kbta
 蔔	kbtb
 擎起	kbtn
+𱘄	kbtq
 敬老	kbtr
 敬畏	kbts
 节略	kbtu
@@ -30892,6 +30939,7 @@ encoder:
 芋	kdjy
 劳动节	kdkb
 某某	kdkd
+𰰩	kdkd
 甘薯	kdkf
 甘蔗	kdkg
 甘苦	kdkg
@@ -31403,6 +31451,7 @@ encoder:
 直销	khae
 真人	khar
 茆	khb
+𱽎	khb
 直聘	khbi
 直陈	khbl
 茆	khbm
@@ -31879,6 +31928,7 @@ encoder:
 蓦	kiq
 勃	kiqb
 暮年	kiqc
+𱅠	kiqh
 劳力	kiqj
 观察力	kiqj
 劳	kiql
@@ -34337,6 +34387,7 @@ encoder:
 浆砌石	ksss
 十恶不赦	ksst
 薤	kssx
+𰰠	kssx
 𬟁	kssy
 𱽛	kssy
 莆田	kste
@@ -35437,6 +35488,7 @@ encoder:
 苔	kyot
 直通车	kypp
 茅屋	kyps
+𰱗	kyqc
 朝鲜族	kyqq
 茅	kyrm
 直言不讳	kysw
@@ -36005,6 +36057,7 @@ encoder:
 繍	ledx
 卍	lee
 站岗	leec
+𱎄	leed
 绿帽	leei
 绿党	leei
 端点	leeo
@@ -36292,6 +36345,7 @@ encoder:
 缠住	lgrw
 亲痛仇快	lgrx
 缠	lgtc
+𱺦	lgtc
 纏	lgtc
 纒	lgtc
 緾	lgtc
@@ -36719,6 +36773,7 @@ encoder:
 幻象	ljuo
 划清	ljvf
 幻觉	ljvi
+𰬨	ljvm
 划水	ljvv
 给排水	ljvv
 纨	ljw
@@ -38073,6 +38128,7 @@ encoder:
 收件箱	lrzm
 乡长	lrzr
 发笑	lrzr
+𰺷	lrzr
 𬘩	lrzt
 綎	lrzt
 发盘	lrzv
@@ -38437,6 +38493,7 @@ encoder:
 绝路	lunu
 亲朋好友	lunx
 络	luo
+𱎅	luog
 绝唱	luoi
 络	luol
 绺	luol
@@ -39674,6 +39731,7 @@ encoder:
 核爆炸	mhhq
 楸	mhhq
 棪	mhhy
+𱤙	mhhy
 𬃊	mhhz
 板鸭	mhie
 棔	mhih
@@ -39957,6 +40015,7 @@ encoder:
 横扫千军	mjri
 極	mjsj
 相持不下	mjss
+𱉴	mjsy
 杻	mjt
 杻	mjtc
 李逵	mjtr
@@ -41027,6 +41086,7 @@ encoder:
 本题	msis
 本家	msiz
 朽	msj
+𱣆	msj
 彑	msj
 本报	msjb
 业报	msjb
@@ -42172,6 +42232,7 @@ encoder:
 姑息	ngrf
 姑爷	ngrx
 姑父	ngrx
+𲍵	ngsc
 风靡一时	ngsi
 曁	ngsj
 躔	ngt
@@ -43841,6 +43902,7 @@ encoder:
 姨	nsay
 跠	nsay
 婳	nsc
+𱙠	nscf
 婳	nsch
 跖骨	nscj
 足不出户	nscw
@@ -44396,6 +44458,7 @@ encoder:
 风力	nxqj
 风刀	nxqj
 风骚	nxqk
+𱃚	nxql
 风气	nxqq
 飓	nxr
 𫠈	nxrb
@@ -44443,6 +44506,7 @@ encoder:
 飔	nxx
 风情	nxxf
 飔	nxxs
+𱃝	nxxx
 风神	nxyi
 风能	nxyu
 风管	nxzi
@@ -46606,6 +46670,7 @@ encoder:
 中轴线	opll
 因缘	oplm
 呢	opln
+𱒃	opn
 㗰	opnc
 因此	opnl
 另辟蹊径	opnp
@@ -48498,7 +48563,7 @@ encoder:
 输卵管	phzi
 得	pi
 届	pi
-𰊑	piby
+𰺑	piby
 得	picd
 得出	pice
 牵出	pice
@@ -49109,6 +49174,7 @@ encoder:
 尼康	plge
 彻底	plgh
 轻音乐	plhp
+𰹯	plj
 衟	pljd
 小辫子	pljj
 得意扬扬	pljj
@@ -49270,6 +49336,7 @@ encoder:
 避世	pokl
 避难	pokr
 劈叉	pokw
+𱌉	polb
 壁纸	polh
 臂章	poli
 屌丝	poll
@@ -49514,7 +49581,6 @@ encoder:
 尾	ppw
 鿈	ppwc
 小小说	ppwd
-軚	ppwd
 车市	ppwe
 车主	ppwf
 尖刻	ppwl
@@ -49522,6 +49588,7 @@ encoder:
 尾房	ppwp
 车房	ppwp
 𮷗	ppwt
+軚	ppwt
 车票	ppxd
 车友	ppxk
 斩尽杀绝	ppxl
@@ -49856,6 +49923,7 @@ encoder:
 大王	psff
 奤	psfh
 大理	psfi
+𱚦	psfm
 大寿	psfr
 行署	psft
 大开眼界	psft
@@ -51317,6 +51385,7 @@ encoder:
 駾	qdnt
 氧吧	qdob
 驱动器	qdoo
+𲌊	qdos
 氣	qdq
 驱动力	qdqj
 独断独行	qdqp
@@ -52681,6 +52750,7 @@ encoder:
 旅顺	qqcs
 气门	qqcw
 气闷	qqcx
+𱄿	qqd
 族规	qqda
 狐狸精	qqdf
 旋紧	qqdk
@@ -53015,6 +53085,7 @@ encoder:
 獺	qsht
 狭窄	qsir
 驪	qsll
+𮹄	qslt
 㹠	qslt
 猝不及防	qsnb
 办事员	qsoh
@@ -53167,6 +53238,7 @@ encoder:
 放缓	qulz
 放样	qumd
 放权	qumk
+𱣬	quml
 放松	qumr
 放榜	qumw
 狗急跳墙	qunt
@@ -53434,6 +53506,7 @@ encoder:
 騣	qxuz
 猣	qxuz
 犹	qxw
+𱅄	qxwb
 𩧪	qxwl
 駹	qxwm
 狵	qxwm
@@ -53536,6 +53609,7 @@ encoder:
 倹	raaj
 儉	raaj
 价钱	raal
+𰁧	raas
 欲念	raaw
 欲	raay
 伧	rab
@@ -53945,6 +54019,7 @@ encoder:
 先见之明	rczi
 逈	rczj
 射箭	rczk
+𲄚	rczl
 躼	rczl
 身长	rczr
 血肉之躯	rczr
@@ -54231,6 +54306,7 @@ encoder:
 片头	redp
 版次	redu
 翛	redx
+𰁸	reed
 牌桌	reei
 侵占	reeo
 修建	reet
@@ -55636,6 +55712,7 @@ encoder:
 特准	rjdr
 特工	rjds
 牧师	rjds
+𱎟	rjdt
 物资	rjdu
 何曾	rjdv
 物	rjdw
@@ -56334,6 +56411,7 @@ encoder:
 代考	rltr
 生产者	rltr
 僮	rltt
+𱖋	rltw
 化肥	rlub
 货色	rlub
 华服	rlub
@@ -56579,6 +56657,7 @@ encoder:
 仍然	rnud
 促膝	rnum
 佻	rnv
+𱎽	rnvq
 佻	rnvt
 伋	rnw
 𡯂	rnw
@@ -58345,6 +58424,7 @@ encoder:
 化为乌有	rwbx
 入内	rwca
 入骨	rwcj
+𱏱	rwcl
 偏见	rwcn
 依顺	rwcs
 入门	rwcw
@@ -59188,6 +59268,7 @@ encoder:
 耐寒	scif
 砸晕	scii
 再审	scii
+𰧃	scij
 磵	scij
 带宽	scik
 带电	scil
@@ -59691,11 +59772,13 @@ encoder:
 妻弟	sedg
 刺头	sedp
 枣	sedz
+𱳹	seed
 一点点	seeo
 巿	sef
 刺眼	sefe
 刺目	sefe
 碳素	sefl
+𱴎	sefl
 丐帮	sefr
 刺青	sefu
 硍	seg
@@ -60238,6 +60321,7 @@ encoder:
 更多	siuu
 更深	sivi
 碍手	sivr
+𱰐	siwa
 更衣	siwg
 不明就里	siwi
 形容词	siwj
@@ -60577,6 +60661,7 @@ encoder:
 开挂	skjt
 刑	skjx
 开	skk
+𰀆	skk
 刑警	skkb
 万圣节	skkb
 刑期	skkf
@@ -61181,6 +61266,7 @@ encoder:
 还好	smnj
 不孕	smnj
 不嫌	smnk
+𱏤	smnl
 𱍤	smnm
 覔	smnm
 恶鬼	smnn
@@ -62472,6 +62558,7 @@ encoder:
 研习	ssjd
 硬撑	ssje
 一批	ssjg
+𱳩	ssjh
 硬控	ssji
 一打	ssjj
 石子	ssjj
@@ -62894,6 +62981,7 @@ encoder:
 𣨼	suet
 殢	suet
 殣	suf
+𱳮	suf
 死罪	sufe
 列表	sufg
 万用表	sufg
@@ -63338,6 +63426,7 @@ encoder:
 𲴂	swos
 救亡图存	swox
 碎屑	swpe
+𰦩	swph
 碎尸	swpj
 不识大体	swpr
 开户行	swps
@@ -63605,6 +63694,7 @@ encoder:
 堬	tajy
 零卖	takj
 埨	takl
+𱗯	takq
 零花	takr
 界首	takr
 零散	taku
@@ -63624,6 +63714,7 @@ encoder:
 零件	tarr
 喜从天降	tasb
 界面	tasc
+𰉱	tasj
 零下	tasm
 吉人天相	tasm
 界碑	tasn
@@ -63705,6 +63796,7 @@ encoder:
 邿	tcb
 寺院	tcbi
 邿	tcbs
+𱖑	tccj
 堈	tceg
 霞光	tces
 寺庙	tcgi
@@ -63727,6 +63819,7 @@ encoder:
 圮	tclp
 块根	tcme
 堰	tcn
+𰉚	tcnx
 堰	tcny
 垌	tco
 垌	tcod
@@ -63748,6 +63841,7 @@ encoder:
 𫭟	tcx
 𫭟	tcxo
 地区性	tcxr
+𰉖	tcy
 圳	tcz
 甽	tcz
 田间管理	tczf
@@ -63756,6 +63850,7 @@ encoder:
 增创	tdab
 畉	tdaf
 款	tdak
+𱖫	tdaw
 鄠	tdb
 去粗取精	tdbd
 鄠	tdbh
@@ -63876,6 +63971,7 @@ encoder:
 增派	tdvh
 隷	tdvl
 增添	tdvs
+𰊑	tdvx
 摯	tdvz
 漐	tdvz
 盩	tdvz
@@ -64016,6 +64112,7 @@ encoder:
 雪豹	tezb
 𫮑	tezj
 壉	tezj
+𱗩	tezt
 畴	tf
 畴	tfcc
 𭎜	tfcd
@@ -64028,6 +64125,7 @@ encoder:
 覿	tfnd
 堽	tfng
 男耕女织	tfnl
+垷	tfnx
 霸王别姬	tfon
 𡐤	tfpq
 塄	tfq
@@ -64057,6 +64155,7 @@ encoder:
 墉	tge
 城建	tget
 墉	tgey
+𰉞	tgey
 城邦	tgfr
 震	tgg
 坡度	tggk
@@ -64218,6 +64317,7 @@ encoder:
 坦克	tign
 畳	tihd
 幸灾乐祸	tihy
+𱖴	tihy
 越野赛	tiif
 靏	tiih
 鷧	tiiy
@@ -64243,6 +64343,7 @@ encoder:
 埋葬	tiks
 坦荡	tikv
 壹	tiky
+𱗸	tikz
 坨	til
 堨	til
 垞	tilc
@@ -64495,6 +64596,7 @@ encoder:
 𡎜	tktn
 坩埚	tkto
 畏首畏尾	tktp
+𱖜	tkts
 填土	tktt
 地对地	tkty
 𰉣	tkty
@@ -64799,6 +64901,7 @@ encoder:
 越南	tnkc
 﨣	tnkd
 超期	tnkf
+𱗤	tnkg
 起草	tnki
 露营	tnki
 超支	tnkk
@@ -65091,6 +65194,7 @@ encoder:
 壴	tokz
 喜新	tolm
 鼓楼	tomd
+𱖮	tomk
 吉林	tomm
 鼓槌	tomr
 鼓足	tone
@@ -65140,6 +65244,7 @@ encoder:
 喜酒	tovx
 甏	tow
 甏	towb
+𱖺	towg
 霵	towj
 喜讯	towl
 嘉许	towr
@@ -65591,6 +65696,7 @@ encoder:
 煮面	trsc
 都来	trsd
 堆砌	trsl
+𱉦	trsl
 老赖	trso
 老天	trsp
 考研	trss
@@ -65837,6 +65943,7 @@ encoder:
 雨声	tstp
 累死累活	tstv
 盐碱地	tsty
+𱖝	tstz
 圭亚那	tsub
 干饭	tsul
 坏处	tsum
@@ -66089,12 +66196,14 @@ encoder:
 略同	tucs
 略过	tucz
 霁	tud
+𰊅	tudc
 𩂓	tudd
 声名远播	tudj
 霁	tudj
 幸免于难	tudk
 雾凇	tudm
 坟头	tudp
+𰉡	tudt
 略差	tudv
 鿍	tue
 赤膊上阵	tueb
@@ -66119,9 +66228,11 @@ encoder:
 声名鹊起	tukt
 胃部	tulo
 坆	tum
+𱖘	tumq
 超文本	tums
 略述	tumw
 略嫌	tunk
+𰉲	tunw
 垎	tuo
 垎	tuoh
 略	tuol
@@ -66179,6 +66290,7 @@ encoder:
 男朋友	tuxk
 老朋友	tuxk
 略有	tuxu
+𱗔	tuxw
 胃酸	tuxy
 塳	tuzp
 墚	tv
@@ -66288,6 +66400,7 @@ encoder:
 㘵	txeb
 思虑	txeg
 思旧	txei
+𱖱	txex
 思春	txfa
 志在四方	txfq
 志愿	txgn
@@ -66324,13 +66437,14 @@ encoder:
 幸存者	txtr
 志士	txts
 堙	txty
+𱖞	txtz
 𱗅	txun
 堶	txut
 堫	txuz
 思潮	txvk
 垅	txw
-坺	txwb
 志存高远	txwd
+坺	txwf
 垅	txwl
 思恋	txwm
 思变	txwm
@@ -66450,6 +66564,7 @@ encoder:
 地狱	tyqw
 劫狱	tyqw
 霧	tyqw
+𱗚	tyqy
 地价	tyra
 去向	tyrc
 地物	tyrj
@@ -66532,6 +66647,7 @@ encoder:
 喜笑颜开	tzls
 喜逐颜开	tzls
 埰	tzmc
+𱖰	tznt
 却之不恭	tzsk
 霾	tztm
 增长率	tzwl
@@ -67744,6 +67860,7 @@ encoder:
 饮水	ulvv
 饮酒	ulvx
 馌	ulvy
+𲋫	ulvy
 饿	ulw
 𫗦	ulwb
 饿	ulwe
@@ -68708,6 +68825,7 @@ encoder:
 备课	utwi
 备忘	utwl
 腮	utx
+𱖐	utx
 惫	utxb
 膨	utxp
 腮	utxs
@@ -69628,6 +69746,7 @@ encoder:
 決	vcaj
 汭	vcar
 汇合	vcas
+𰛛	vcas
 洲际	vcbd
 汇聚	vcbk
 灔	vcby
@@ -71369,6 +71488,7 @@ encoder:
 港口	vkoo
 汉口	vkoo
 看菜吃饭	vkou
+𰝅	vkoy
 渽	vkoz
 漠	vkp
 灌输	vkpa
@@ -72755,6 +72875,7 @@ encoder:
 兴	vsrx
 洹	vss
 水平面	vssc
+𱊞	vssc
 学而不厌	vssg
 滑天下之大稽	vssh
 洹	vssh
@@ -73798,6 +73919,7 @@ encoder:
 治党	vyei
 涌上	vyes
 流言蜚语	vyew
+𰝟	vyex
 涌现	vyfc
 治罪	vyfe
 治理	vyfi
@@ -74842,6 +74964,7 @@ encoder:
 弃暗投明	wiji
 说明书	wijj
 议定书	wijj
+𲂇	wijn
 𫍾	wijn
 主题歌	wijo
 谩	wik
@@ -75533,6 +75656,7 @@ encoder:
 望风而逃	wnsn
 设备	wnut
 设法	wnvt
+𲂂	wnwf
 设计	wnwk
 高风亮节	wnwk
 讥讽	wnwn
@@ -76300,7 +76424,7 @@ encoder:
 五体投地	wrjt
 交换	wrju
 交警	wrkb
-𱂊	wrkh
+𲂊	wrkh
 效劳	wrki
 谢幕	wrki
 夜幕	wrki
@@ -78686,6 +78810,7 @@ encoder:
 情至义尽	xswp
 酺	xswp
 酾	xsws
+𱞈	xsww
 怀恨	xsxe
 有求必应	xsxg
 憓	xsxh
@@ -80130,6 +80255,7 @@ encoder:
 神灯	yihj
 褐煤	yihk
 禵	yiht
+𰨖	yiht
 神秘	yihx
 誼	yihy
 鲳	yii
@@ -81765,6 +81891,7 @@ encoder:
 言之有物	yzxr
 迆	yzy
 這	yzz
+𱈏	yzzz
 鱁	yzzz
 在	z
 之	z
@@ -82154,6 +82281,7 @@ encoder:
 舨	zh
 受贿罪	zhfe
 鵃	zhiz
+𱷸	zhjz
 舨	zhkb
 之所以	zhlw
 篪	zhn
@@ -82687,6 +82815,7 @@ encoder:
 舀	zny
 船台	znyo
 邈	znz
+𱼷	znz
 船舱	znza
 船籍	znzf
 邈	znzm
