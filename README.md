@@ -136,7 +136,7 @@ translator:
 ## 六、其它相关链接
 __米十五笔输入法__
 - [x] 米十五笔输入法官方主页：  [http://www.jpwb.cc/MJWB.htm](http://www.jpwb.cc/MJWB.htm)
-- [x] 米十五笔输入法永硕网盘空间(登录密码  mswb)：  [http://xukt.ysepan.com/](http://xukt.ysepan.com/)
+- [x] 米十五笔输入法永硕网盘空间：  [http://xukt.ysepan.com/](http://xukt.ysepan.com/)
 
 __Rime 资源链接__
 - [x] Rime github 地址：  [https://github.com/rime](https://github.com/rime)
