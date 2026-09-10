@@ -5,6 +5,10 @@ schema:
   schema_id: mishi_wubi_trad
   name: "简入繁出"
   version: "1.0"
+  icon: "icons/mishi.ico"
+  ascii_icon: "icons/en.ico"
+  full_icon: "icons/full.ico"
+  half_icon: "icons/half.ico"
   author:
     - 创始人 李明先生
   description:
@@ -74,8 +78,8 @@ translator:
 
 tradition:
   #  opencc_config: s2t.json  # 简体 -> 繁体
-  opencc_config: s2hk.json  # 简体 -> 香港繁体
-  #  opencc_config: s2tw.json  # 简体 -> 台湾正体
+  #  opencc_config: s2hk.json  # 简体 -> 香港繁体
+  opencc_config: s2tw.json  # 简体 -> 台湾正体
   #  opencc_config: s2twp.json  # 简体 -> 繁体（台湾正体标准）并转换为台湾常用词汇
   option_name: zh_trad
 

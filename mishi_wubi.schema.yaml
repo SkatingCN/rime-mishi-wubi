@@ -5,6 +5,10 @@ schema:
   schema_id: mishi_wubi
   name: "米十五笔"
   version: "1.0"
+  icon: "icons/mishi.ico"
+  ascii_icon: "icons/en.ico"
+  full_icon: "icons/full.ico"
+  half_icon: "icons/half.ico"
   author:
     - 创始人 李明先生
   description: |
@@ -24,6 +28,9 @@ switches:
   - name: extended_charset
     states: [ 常,扩 ]
     reset: 1
+  - name: mswb_spelling
+    reset: 1
+    states: [ 🈴️,🈹️ ]
   - name: emoji_suggestion
     reset: 1
     states: [ 🈚︎,🈶️ ]
@@ -62,6 +69,7 @@ engine:
   filters:
     - simplifier@emoji_suggestion
     - simplifier@tradition
+    - simplifier@mswb_spelling
     - lua_filter@single_char # 纯单字
     - uniquifier
 
@@ -95,8 +103,8 @@ translator:
 
 tradition:
   #  opencc_config: s2t.json  # 简体 -> 繁体
-  opencc_config: s2hk.json  # 简体 -> 香港繁体
-  #  opencc_config: s2tw.json  # 简体 -> 台湾正体
+  #  opencc_config: s2hk.json  # 简体 -> 香港繁体
+  opencc_config: s2tw.json  # 简体 -> 台湾正体
   #  opencc_config: s2twp.json  # 简体 -> 繁体（台湾正体标准）并转换为台湾常用词汇
   option_name: zh_trad
 
@@ -123,6 +131,21 @@ emoji_suggestion:
   tips: none
   inherit_comment: false
 
+mswb_spelling:
+  opencc_config: mswb_spelling.json
+  option_name: mswb_spelling
+  show_in_comment: true
+  comment_format:
+    - "xform/☯/·/"    
+    - "xform/<br>/\n/"
+    - "xform/※※※//"
+    - "xform/※※//"    
+    - "xform/※//"
+  tags:
+    - abc
+    - rvlk1
+  tips: all 
+
 punctuator:
   import_preset: default
 
@@ -136,6 +159,7 @@ key_binder:
     - {send: space, accept: space, when: has_menu}
     - {toggle: emoji_suggestion, accept: "Control+Shift+E", when: always}
     - {toggle: zh_trad, accept: "Control+Shift+F", when: always}
+    - {toggle: mswb_spelling, accept: "Control+Shift+H", when: always}
     - {toggle: single_char, accept: "Control+Shift+K", when: always}
     - {toggle: extended_charset, accept: "Control+Shift+U", when: always}
     - {accept: semicolon, send: 2, when: has_menu}
