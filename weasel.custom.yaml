@@ -1,13 +1,5 @@
 # encoding: utf-8
 
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.13.3
-  generator: "Weasel"
-  modified_time: "2023-06-09"
-  rime_version: "0.15.0"
-  config_version: "0.22"
-
 patch:
   style:
     inline_preedit: true
@@ -15,8 +7,7 @@ patch:
     display_tray_icon: false
     horizontal: true    # 横向排列候选
     font_point: 12                          # 候选词 字号
-    font_face: "Microsoft Yahei"            # 字体 - 候选文字 例子： "Microsoft Yahei:12:15:bold"
-
+    font_face: "Segoe UI Emoji, Noto Color Emoji, Plangothic P2, Plangothic P1, Microsoft Yahei, SimSun-ExtG, SimSun-ExtB, 宋体"    # 候选字体
     label_font_face: "Microsoft Yahei"     # string 序号字体 标注
     label_font_point: 11                   # number    序号字体 大小
     comment_font_face: "Microsoft Yahei"   # string 解释字体
