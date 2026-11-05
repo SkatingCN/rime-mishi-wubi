@@ -12,9 +12,7 @@ schema:
   author:
     - 创始人 李明先生
   description: |
-    米十五笔
-    方案由 Skating 修改
-    敲 / 键进入拼音反查
+    米十五笔，方案由 Skating 修改 - 2025年10月08日 9:25
   dependencies:
     - pinyin_simp
 
@@ -81,7 +79,6 @@ speller:
 
 translator:
   dictionary: mishi_wubi             # 翻译器将调取此字典文件
-  initial_quality: 100000
   enable_charset_filter: true           # 开启字符集过滤
   enable_completion: true               # 是否显示编码未输入完整的词条
 
@@ -92,7 +89,7 @@ translator:
   enable_encoder: true                  # 是否开启自动造词
   encode_commit_history: false          # 是否对已上屏词自动成词（仅 table_translator 有效）
 
-  max_phrase_length: 2                 # 自动生成词的最大长度
+  max_phrase_length: 4                 # 自动生成词的最大长度
   user_dict: mishi_wubi                 # 用户词典名
   db_class: userdb                      # 用户词典类型 userdb - 二进制 / tabledb - 人类语言
 
@@ -110,7 +107,6 @@ tradition:
 
 mkst:
   __include: /translator
-  initial_quality: 10
   enable_sentence: true
   prefix: '`'
   tips: "【精准造词】"
