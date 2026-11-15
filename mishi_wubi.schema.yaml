@@ -79,6 +79,7 @@ speller:
 
 translator:
   dictionary: mishi_wubi             # 翻译器将调取此字典文件
+  initial_quality: 1
   enable_charset_filter: true           # 开启字符集过滤
   enable_completion: true               # 是否显示编码未输入完整的词条
 
@@ -107,6 +108,7 @@ tradition:
 
 mkst:
   __include: /translator
+  initial_quality: 0.1
   enable_sentence: true
   prefix: '`'
   tips: "【精准造词】"
